@@ -139,21 +139,20 @@ body{
 
 /* blog section style end */
 
-/* footer style start  */
-.footer{
+.footer-container{
     background-color: #161616;
     padding: 100px 0;
     width: 100%;
     height: auto;
 }
 
-.footer h1{
+.footer-container h1{
     color: #fff;
     font-size: 3em;
     text-align: center;
 }
 
-.footer hr{
+.footer-container hr{
     width: 1000px;
     color: rgb(215, 11, 11);
     margin: 0 auto;
@@ -168,7 +167,7 @@ body{
     justify-content: center;
     margin-top: 30px;
 }
-.footer ul li{
+.footer-container ul li{
     color: #b9b9b9;
     list-style: none;
     display: inline;
