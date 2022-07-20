@@ -60,6 +60,9 @@ body{
     border-radius: 5px;
     margin-top: 40px;
 }
+.banner-content button .fa-solid {
+    margin-left: 5px;
+}
 .banner-img{
     width: 100%;
 }
@@ -84,7 +87,12 @@ body{
     padding: 30px;
     border-radius: 10px;
     height: 200px;
+    z-index: 999;
 }
+.blog-container {
+    z-index: -1;
+}
+
 .blog-filter ul li {
     list-style: none;
     background: #fff;
@@ -148,6 +156,14 @@ body{
 }
 .load-btn{
     display: none;
+    background: #dd0000;
+    font-size: 18px;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin: 25px auto;
+    margin-bottom: 0;
 }
 /* blog section style end */
 
