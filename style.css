@@ -13,10 +13,17 @@ body{
 
 
 .container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+.banner-section{
     width: 1200px;
     margin: 0 auto;
     
 }
+
 
 /* banner style start */
 
@@ -30,7 +37,7 @@ body{
 }
 .banner-warper{
     display: flex;
-    padding: 100px 100px 0 100px;
+    padding: 80px 80px 0 80px;
 }
 .banner-content{
     width: 100%;
@@ -43,6 +50,9 @@ body{
     color: #fff;
     margin-top: 20px;
     line-height: 25px;
+}
+.banner-content .random-text{
+    display: none;
 }
 .banner-content button{
     font-size: 22px;
@@ -138,7 +148,9 @@ body{
 .blog-comment{
     margin-right: 30px;
 }
-
+.load-btn{
+    display: none;
+}
 /* blog section style end */
 
 .footer-container{
@@ -178,3 +190,72 @@ body{
 }
 
 /* footer style end */
+
+
+
+/* responsive style start  */
+@media screen and (max-width: 836px) {
+    .banner-section{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .banner-content .random-text{
+        display: block;
+    }
+    .banner-content p{
+        display: none;
+    }
+    .banner-content h1{
+        font-size: 3em;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    .blog-warper {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0px 50px;
+    }
+    
+    .blog-filter{
+        background: #ffff;
+        height: 80px;
+    }
+    .blog-filter ul {
+       display: grid;  
+       grid-template-columns: repeat(3, 1fr);
+       gap: 30px;
+    }
+    .blog-filter ul li{
+        border: 1px solid #61616147;
+    }
+    .blogs-content{
+        
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+    .load-btn{
+        display: block;
+    }
+}
+
+
+/* mobile responsive */
+@media screen and (max-width: 450px) {
+    .banner-warper{
+        flex-direction: column;
+    }
+    .blog-filter ul {
+        display: grid;  
+        grid-template-columns: none;
+        gap: 30px;
+     }
+     .blogs-content {
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 130px;
+    }
+    .blog-filter ul li {
+        margin-top: 0;
+    }
+}
