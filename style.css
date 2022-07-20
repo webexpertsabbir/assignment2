@@ -204,6 +204,16 @@ body{
     font-size: 18px;
 }
 
+.social-icon{
+   text-align: center;
+   margin-top: 30px;
+   display: none;
+}
+.social-icon a{
+    color: #fff;
+    font-size: 30px;
+    margin-left: 10px;
+}
 /* footer style end */
 
 
@@ -286,6 +296,10 @@ body{
         
     }
     .load-btn{
+        display: block;
+    }
+
+    .social-icon{
         display: block;
     }
 }
