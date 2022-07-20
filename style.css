@@ -240,7 +240,8 @@ body{
 
 
 /* mobile responsive */
-@media screen and (max-width: 450px) {
+
+@media screen and (max-width: 500px) {
     .banner-warper{
         flex-direction: column;
     }
