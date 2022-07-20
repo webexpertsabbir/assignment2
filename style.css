@@ -93,8 +93,8 @@ body{
     margin-top: 20px;
     text-align: center;
 }
-.blog-filter ul li:last-child{
-    background-color: #dd0000;
+.blog-btn1{
+    background: #dd0000 !important;
     color: #fff;
 }
 .blog-filter ul li a {
@@ -189,6 +189,41 @@ body{
 
 /* footer style end */
 
+
+
+/* upcomming blog style start  */
+
+.blog-btn1 a{
+    background: #dd0000 !important;
+    color: #fff;
+}
+
+.gamming-country{
+    gap: 40px;
+    row-gap: 85px;
+}
+.cuntiry-img{
+    display: grid;
+    grid-template-columns: 1fr 50px 1fr;
+}
+.cuntiry-img h2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.gamming-info{
+    margin: 20px;
+}
+.game-info h1{
+    text-align: center;
+    line-height: 40px;
+    font-size: 22px;
+}
+.game-info p{
+    text-align: center;
+}
+/* upcomming blog style end  */
 
 
 /* responsive style start  */
